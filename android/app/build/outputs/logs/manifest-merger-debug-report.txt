@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12
+ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12
 MERGED from [:react-native-firebase] /Users/bhavya/Desktop/react/notifiactionpush/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/80b69161dff1dc472d4eb96818bfa9ca/AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/9c5e375bb987eafb992ccac70507103a/AndroidManifest.xml:2:1-9:12
@@ -58,20 +58,20 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/bhavya/.gradle/caches/
 MERGED from [org.webkit:android-jsc:r174650] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/3d856fe8f81538ce588b82c595b11f8b/AndroidManifest.xml:1:1-3:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/00dd35165d88a6432c650cd47ffd3260/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/4d26a36e1b1a3d549857831a529d482f/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12
 	package
 		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:2:3-33
 		INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12
 		INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12
 		INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -96,7 +96,7 @@ MERGED from [com.facebook.react:react-native:0.58.5] /Users/bhavya/.gradle/cache
 	android:name
 		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:5:22-75
 application
-ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:7:5-25:19
+ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:7:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/80b69161dff1dc472d4eb96818bfa9ca/AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/80b69161dff1dc472d4eb96818bfa9ca/AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/9c5e375bb987eafb992ccac70507103a/AndroidManifest.xml:7:5-20
@@ -175,6 +175,26 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:24:7-84
 	android:name
 		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:24:17-81
+service#io.invertase.firebase.messaging.RNFirebaseMessagingService
+ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:25:7-29:17
+	android:name
+		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:25:16-89
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:26:9-28:25
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:27:13-74
+	android:name
+		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:27:21-71
+service#io.invertase.firebase.messaging.RNFirebaseInstanceIdService
+ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:30:7-34:17
+	android:name
+		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:30:16-90
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:31:9-33:27
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:32:11-73
+	android:name
+		ADDED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:32:19-71
 uses-sdk
 INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml
@@ -325,14 +345,6 @@ ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle
 		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/80b69161dff1dc472d4eb96818bfa9ca/AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/80b69161dff1dc472d4eb96818bfa9ca/AndroidManifest.xml:29:13-82
-intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/80b69161dff1dc472d4eb96818bfa9ca/AndroidManifest.xml:31:13-33:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/80b69161dff1dc472d4eb96818bfa9ca/AndroidManifest.xml:31:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/80b69161dff1dc472d4eb96818bfa9ca/AndroidManifest.xml:32:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/80b69161dff1dc472d4eb96818bfa9ca/AndroidManifest.xml:32:25-75
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/1a034dabb04cafb8013c19e03d43d492/AndroidManifest.xml:27:9-31:19
 MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/871e664538b7211887b420a191c65547/AndroidManifest.xml:29:9-35:19
@@ -427,14 +439,6 @@ ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/bhavya/.gradle/cache
 		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/871e664538b7211887b420a191c65547/AndroidManifest.xml:52:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/871e664538b7211887b420a191c65547/AndroidManifest.xml:51:13-77
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/871e664538b7211887b420a191c65547/AndroidManifest.xml:53:13-55:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/871e664538b7211887b420a191c65547/AndroidManifest.xml:53:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/871e664538b7211887b420a191c65547/AndroidManifest.xml:54:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/871e664538b7211887b420a191c65547/AndroidManifest.xml:54:25-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:16.1.0] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/play-services-base-16.1.0.aar/1e03ebc86175b14cf406f87a249ba59f/AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -460,8 +464,8 @@ ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/bhavya/
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/bhavya/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/f65c283b66e1abce09161d09640b0114/AndroidManifest.xml:24:13-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/bhavya/Desktop/react/notifiactionpush/android/app/src/main/AndroidManifest.xml:1:1-37:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

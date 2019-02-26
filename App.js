@@ -27,6 +27,11 @@ export default class App extends Component<Props> {
   this.createNotificationListeners();
 }
 
+componentWillUnmount() {
+  this.notificationListener();
+  this.notificationOpenedListener();
+}
+
 async checkPermission() {
   const enabled = await firebase.messaging().hasPermission();
   if (enabled) {
@@ -59,10 +64,11 @@ async getToken() {
 }
 
 async createNotificationListeners() {
+
   this.notificationListener = firebase.notifications().onNotification((notification) => {
      const { title, body } = notification;
      this.showAlert(title, body);
- },this.notificationOpenedListener(notification));
+ });
 
 
  this.notificationOpenedListener = firebase.notifications().onNotificationOpened((notificationOpen) => {
