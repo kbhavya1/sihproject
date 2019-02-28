@@ -8,7 +8,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View,Alert} from 'react-native';
 import { AsyncStorage } from 'react-native';
 import firebase from 'react-native-firebase';
 
@@ -39,6 +39,7 @@ async checkPermission() {
   } else {
       this.requestPermission();
   }
+
 }
 
 async requestPermission() {
@@ -53,11 +54,16 @@ async requestPermission() {
 
 
 async getToken() {
-  let fcmToken = await AsyncStorage.getItem('fcmToken', value);
+
+  let fcmToken = await AsyncStorage.getItem('fcmToken');
+  /************************Since we are getting fcmToken here****************************/
+  console.log(fcmToken);
+  /***********************So the callback this.notificationOpenedListener();*****************************/
   if (!fcmToken) {
       fcmToken = await firebase.messaging().getToken();
       if (fcmToken) {
           // user has a device token
+          console.log('token check '+fcmToken);
           await AsyncStorage.setItem('fcmToken', fcmToken);
       }
   }
@@ -67,12 +73,13 @@ async createNotificationListeners() {
 
   this.notificationListener = firebase.notifications().onNotification((notification) => {
      const { title, body } = notification;
-     this.showAlert(title, body);
+     this.showAlert(title, body,);
  });
 
 
  this.notificationOpenedListener = firebase.notifications().onNotificationOpened((notificationOpen) => {
-      const { title, body } = notificationOpen.notification;
+   console.log(notificationOpen);
+      const { title, body,value } = notificationOpen.notification;
       this.showAlert(title, body);
   });
 
@@ -88,7 +95,8 @@ async createNotificationListeners() {
    console.log(JSON.stringify(message));
  });
 }
-showAlert(title, body) {
+
+showAlert(title,body) {
   Alert.alert(
     title, body,
     [
@@ -97,8 +105,6 @@ showAlert(title, body) {
     { cancelable: false },
   );
 }
-}
-
 
   render() {
 
@@ -111,23 +117,25 @@ showAlert(title, body) {
     );
   }
 }
-}
+
+
+
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#F5FCFF'
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
-    margin: 10,
+    margin: 10
   },
   instructions: {
     textAlign: 'center',
     color: '#333333',
-    marginBottom: 5,
+    marginBottom: 5
   },
 });
