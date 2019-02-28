@@ -66,6 +66,7 @@ async getToken() {
           console.log('token check '+fcmToken);
           await AsyncStorage.setItem('fcmToken', fcmToken);
       }
+      this.notificationOpenedListener;
   }
 }
 
@@ -78,7 +79,7 @@ async createNotificationListeners() {
 
 
  this.notificationOpenedListener = firebase.notifications().onNotificationOpened((notificationOpen) => {
-   console.log(notificationOpen);
+   console.log('hey');
       const { title, body,value } = notificationOpen.notification;
       this.showAlert(title, body);
   });
