@@ -8,8 +8,9 @@
   },
   "dependencies": {
     "react": "16.6.3",
-    "react-native": "0.58.5",
-    "react-native-firebase": "^5.2.2"
+    "react-native": "0.58.6",
+    "react-native-firebase": "^5.2.2",
+    "react-native-navigation-bar": "^0.2.1"
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",

@@ -29,6 +29,7 @@
       </service>
       <service android:name="io.invertase.firebase.messaging.RNFirebaseInstanceIdService">
         <intent-filter>
+          <action android:name=".MainActivity" />
           <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
           </intent-filter>
       </service>

@@ -8,7 +8,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View,Alert} from 'react-native';
+import {Platform,Image,StyleSheet, Text, View,Alert} from 'react-native';
 import { AsyncStorage } from 'react-native';
 import firebase from 'react-native-firebase';
 
@@ -33,23 +33,31 @@ componentWillUnmount() {
 }
 
 async checkPermission() {
+  console.log('permission checked top');
   const enabled = await firebase.messaging().hasPermission();
   if (enabled) {
       this.getToken();
+      console.log('permission checked if');
   } else {
       this.requestPermission();
+      console.log('permission checked else');
   }
-
+  console.log('permission checked bottom');
 }
 
 async requestPermission() {
+  console.log('permission request top');
   try {
+
       await firebase.messaging().requestPermission();
       // User has authorised
+      console.log('permission request if');
       this.getToken();
   } catch (error) {
       // User has rejected permissions
+      console.log('permission request else');
   }
+  console.log('permission request bottom');
 }
 
 
@@ -57,16 +65,19 @@ async getToken() {
 
   let fcmToken = await AsyncStorage.getItem('fcmToken');
   /************************Since we are getting fcmToken here****************************/
+  console.log('with token');
   console.log(fcmToken);
   /***********************So the callback this.notificationOpenedListener();*****************************/
   if (!fcmToken) {
       fcmToken = await firebase.messaging().getToken();
+      console.log('with token in if');
       if (fcmToken) {
           // user has a device token
           console.log('token check '+fcmToken);
+          console.log('with token in else');
           await AsyncStorage.setItem('fcmToken', fcmToken);
       }
-      this.notificationOpenedListener;
+
   }
 }
 
@@ -78,18 +89,18 @@ async createNotificationListeners() {
  });
 
 
+ const notificationOpen =await firebase.notifications().getInitialNotification();
+ if (notificationOpen) {
+  console.log(notificationOpen);
+     const { title, body } = notificationOpen.notification;
+     this.showAlert(title, body);
+ }
+
  this.notificationOpenedListener = firebase.notifications().onNotificationOpened((notificationOpen) => {
-   console.log('hey');
-      const { title, body,value } = notificationOpen.notification;
-      this.showAlert(title, body);
-  });
+    const { title, body } = notificationOpen.notification;
+    this.showAlert(title, body);
+});
 
-
-  const notificationOpen = await firebase.notifications().getInitialNotification();
-  if (notificationOpen) {
-      const { title, body } = notificationOpen.notification;
-      this.showAlert(title, body);
-  }
 
    this.messageListener = firebase.messaging().onMessage((message) => {
    //process data message
@@ -110,11 +121,11 @@ showAlert(title,body) {
   render() {
 
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
+        <View>
+            <View style={styles.navbar}>
+              <Text>Navbar</Text>
+            </View>
+        </View>
     );
   }
 }
@@ -129,14 +140,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF'
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10
+  navbar:{
+    backgroundColor:'blue',
+    height:60,
+    width:415,
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5
+  body:{
+    flex:1,
+    backgroundColor:'skyblue',
   },
 });

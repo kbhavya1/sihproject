@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Feb 28 23:39:22 IST 2019
+#Sat Mar 02 19:14:26 IST 2019
 33.base=/Users/bhavya/Desktop/react/notifiactionpush/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 47.base=/Users/bhavya/Desktop/react/notifiactionpush/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 36.path=lib/x86_64/libjsinspector.so
